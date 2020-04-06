@@ -13,6 +13,5 @@ soma([X|Y],Resul):- soma(Y,Sum), Resul is Sum + X.
 maior([],0).
 maior([X|Y],Maior):- maior(Y,X), X > Maior.
 
-
 concatena([],B,B).
 concatena([X|Y],B,[X|Z]):- concatena(Y,B,Z).
